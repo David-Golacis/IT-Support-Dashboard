@@ -13,10 +13,13 @@ Insights and recommendations are provided on the following key areas:
 - Identification of commonly requested details in ticket responses
 
 An interactive Power BI dashboard can be downloaded [here](https://github.com/David-Golacis/IT-Support-Dashboard/blob/main/IT%20Support%20Dashboard.pbix).
+
 The dataset used can be found [here](https://github.com/David-Golacis/IT-Support-Dashboard/blob/main/Dataset/aa_dataset-tickets-multi-lang-5-2-50-version.csv).
 
 
 ## Data Structure Overview
+
+The Customer IT Support dataset consists of one table with 28,587 records. Shown below is the structure of the database.
 
 | Field    | Description                                                                   | Data Type |
 |----------|-------------------------------------------------------------------------------|-----------|
@@ -29,9 +32,17 @@ The dataset used can be found [here](https://github.com/David-Golacis/IT-Support
 | Type     | The type of ticket as picked by the agent                                     | String    |
 | Tags     | Tags/categories assigned to the ticket, split into ten columns in the dataset | String    |
 
+For this analysis, the language column was filtered for English-only responses, and the linebreak code, \n\n, was removed from the queries' bodies and answers. This helped clarify the information, ensuring that all data points were clear and readable. This reduced the number of records to 16,338, a reduction of 42.85%.
 
 
-3. Executive Summary
+## Executive Summary
+
+
+
+
+
+
+
 4. Insights Deep Dive
 5. Recommendations
 
