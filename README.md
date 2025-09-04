@@ -32,7 +32,11 @@ The Customer IT Support dataset consists of one table with 28,587 records. Shown
 | Type     | The type of ticket as picked by the agent                                     | String    |
 | Tags     | Tags/categories assigned to the ticket, split into ten columns in the dataset | String    |
 
-For this analysis, the language column was filtered for English-only responses, and the linebreak code, \n\n, was removed from the queries' bodies and answers. This helped clarify the information, ensuring that all data points were clear and readable. This reduced the number of records to 16,338, a reduction of 42.85%.
+For this analysis, the following amendments were made:
+- The language column was filtered for English-only responses
+- The linebreak code, \n\n, was removed from the queries' bodies and answers
+
+This helped clarify the information, ensuring that all data points were clear and readable. This reduced the number of records to 16,338, a reduction of 42.85%.
 
 
 ## Executive Summary
