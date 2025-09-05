@@ -26,6 +26,7 @@ The Customer IT Support dataset consists of one table with 28,587 records. Shown
 | Queue    | Specifies the department to which the email ticket is routed                  | String    |
 | Priority | Indicates the urgency and importance of the issue                             | String    |
 | Language | Indicates the language in which the email is written                          | String    |
+| Version  | Designates the version of the application used                                | Number    |
 | Subject  | Subject of the customer's email                                               | String    |
 | Body     | Body of the customer's email                                                  | String    |
 | Answer   | The response provided by the helpdesk agent                                   | String    |
