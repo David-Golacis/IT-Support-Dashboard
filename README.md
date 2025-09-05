@@ -4,7 +4,7 @@
 
 An open-source customer IT support dataset for a global brand has been obtained from Kaggle. Please find the dataset linked here: [Customer IT Support - Ticket Dataset](https://www.kaggle.com/datasets/tobiasbueck/multilingual-customer-support-tickets).
 
-The fictitious company has significant amounts of data on its various departments, priority of issues, type of tickets, assigned tags/ categories, and queries' subject, body, and answers. This project thoroughly analyses and synthesises this data to uncover critical insights that will improve the business's quality of responses.
+The fictitious company has significant amounts of data for its application across various departments, including priority of issues, types of tickets, assigned tags/categories, and queries' subjects, bodies, and answers. This project thoroughly analyses and synthesises this data to uncover critical insights that will improve the business's quality of responses.
 
 Insights and recommendations are provided on the following key areas:
 - Evaluation of departmental workload distribution
@@ -41,10 +41,11 @@ This helped clarify the information, ensuring that all data points were clear an
 
 ## Executive Summary
 
+Key performance indicators show that the Technical Support department handles the majority of tickets by volume, 4,737, of the 16,338 total tickets raised, equating to 28.99%. From the total number of issues, 38.84% have been marked as high-priority incidents, indicating urgency and importance to the business. Additionally, 40.22% of problems have been assigned the incident type by an agent, showing that issues were related to unplanned interruption or a reduction in the quality of an IT service that directly impacts users' ability to perform their jobs. To further support this, the top 3 tags across all records signify concerns with the application's usability: Tech Support, IT, and Performance.
 
+Below is the overview page from the Power BI dashboard, and more examples are included throughout the report.
 
-
-
+![Executive overview]()
 
 
 ## Insights Deep Dive
