@@ -36,7 +36,7 @@ class Config:
     # ==============================================================
     # Quality Checks
     QC_DIR = SUPPORTING_DOCS_DIR / "00_Quality_Checks"
-    QC_CSV_DIR = QC_DIR / "CSV"
+    QC_OUTPUT_DIR = QC_DIR / "OUTPUTS"
 
     # Representative Checks
     REP_DIR = SUPPORTING_DOCS_DIR / "01_Representativeness_Checks"
@@ -57,7 +57,8 @@ class Config:
     # 3. Data Files
     # ==============================================================
     RAW_DATA_PATH = DATA_DIR / "IT_Tickets_Raw.csv"
-    CLEAN_DATA_PATH = QC_CSV_DIR / "Tickets_Clean.csv"
+    CLEAN_CSV_PATH = QC_OUTPUT_DIR / "Tickets_Clean.csv"
+    CLEAN_PARQUET_PATH = QC_OUTPUT_DIR / "Tickets_Clean.parquet"
 
     # Intermediate artefacts
     # TFIDF_MATRIX_PATH = TEXT_CSV_DIR / "tfidf_matrix.pkl"
@@ -102,7 +103,7 @@ class Config:
     def ensure_directories(cls):
         """Create all directories if they don’t already exist."""
         dirs = [
-            cls.QC_CSV_DIR,
+            cls.QC_OUTPUT_DIR,
             cls.REP_IMG_DIR,
             cls.REP_CSV_DIR,
             cls.TEXT_IMG_DIR,
