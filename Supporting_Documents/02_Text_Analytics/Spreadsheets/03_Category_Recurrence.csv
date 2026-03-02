@@ -1,0 +1,15 @@
+category_field,category_value,records_in_group,recurrence_rate
+Type,Request,3929,0.3494527869686943
+Type,Incident,5531,0.3060929307539324
+Queue,Billing and Payments,1349,0.27575982209043737
+Type,Change,1397,0.27415891195418757
+Type,Problem,2872,0.2604456824512535
+Queue,Technical Support,3971,0.24804835054142532
+Queue,Product Support,2606,0.22870299309286263
+Queue,Sales and Pre-Sales,410,0.21951219512195122
+Queue,Customer Service,2045,0.21222493887530564
+Queue,IT Support,1609,0.2113113735239279
+Queue,Service Outages and Maintenance,581,0.20481927710843373
+Queue,Human Resources,285,0.19649122807017544
+Queue,Returns and Exchanges,686,0.17346938775510204
+Queue,General Inquiry,187,0.1443850267379679

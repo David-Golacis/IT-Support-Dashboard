@@ -1,0 +1,10 @@
+Metric,Value
+Tokens removed,19.25%
+KS stat,6.60e-02
+KS p-value,1.97e-26
+Mean (before),0.803
+Mean (after),0.816
+Median (before),0.806
+Median (after),0.819
+≥ 0.85 similarity (before),36.57%
+≥ 0.85 similarity (after),41.05%

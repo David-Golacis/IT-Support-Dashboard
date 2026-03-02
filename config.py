@@ -36,17 +36,17 @@ class Config:
     # ==============================================================
     # Quality Checks
     QC_DIR = SUPPORTING_DOCS_DIR / "00_Quality_Checks"
-    QC_OUTPUT_DIR = QC_DIR / "OUTPUTS"
+    QC_SHEETS_DIR = QC_DIR / "Spreadsheets"
 
     # Representative Checks
     REP_DIR = SUPPORTING_DOCS_DIR / "01_Representativeness_Checks"
     REP_IMG_DIR = REP_DIR / "Images"
-    REP_CSV_DIR = REP_DIR / "CSV"
+    REP_SHEETS_DIR = REP_DIR / "Spreadsheets"
 
     # Text Analytics
     TEXT_DIR = SUPPORTING_DOCS_DIR / "02_Text_Analytics"
     TEXT_IMG_DIR = TEXT_DIR / "Images"
-    TEXT_CSV_DIR = TEXT_DIR / "CSV"
+    TEXT_SHEETS_DIR = TEXT_DIR / "Spreadsheets"
 
     # Master output folder for shared artefacts (optional)
     # OUTPUT_DIR = BASE_DIR / "Outputs"
@@ -57,12 +57,28 @@ class Config:
     # 3. Data Files
     # ==============================================================
     RAW_DATA_PATH = DATA_DIR / "IT_Tickets_Raw.csv"
-    CLEAN_CSV_PATH = QC_OUTPUT_DIR / "Tickets_Clean.csv"
-    CLEAN_PARQUET_PATH = QC_OUTPUT_DIR / "Tickets_Clean.parquet"
 
-    # Intermediate artefacts
-    # TFIDF_MATRIX_PATH = TEXT_CSV_DIR / "tfidf_matrix.pkl"
-    # TFIDF_FEATURES_PATH = TEXT_CSV_DIR / "tfidf_features.txt"
+    # Quality checks outputs
+    NULL_ANSWERS_PATH = QC_SHEETS_DIR / "01_Null_Answers.csv"
+    INVALID_TAGS_PATH = QC_SHEETS_DIR / "02_Invalid_Tags.csv"
+    VALIDATED_TAGS_PATH = QC_SHEETS_DIR / "03_Validated_Tags.csv"
+    CLEAN_CSV_PATH = QC_SHEETS_DIR / "04_Tickets_Clean.csv"
+    CLEAN_PARQUET_PATH = QC_SHEETS_DIR / "04_Tickets_Clean.parquet"
+
+    # Representativeness checks outputs
+    ENGLISH_CSV_PATH = REP_SHEETS_DIR / "01_English_Tickets.csv"
+    ABSOLUTE_SHIFT_PATH = REP_SHEETS_DIR / "06_Distribution_Shift_Summary.csv"
+    STATISTICAL_SUMMARY_PATH = REP_SHEETS_DIR / "07_Statistical_Summary.csv"
+    ENGLISH_PARQUET_PATH = REP_SHEETS_DIR / "01_English_Tickets.parquet"
+
+    # Text analytics outputs
+    KDE_IMG_PATH = TEXT_IMG_DIR / "01_Lemma_Similarity_KDE.png"
+    LEMMA_CSV_PATH = TEXT_SHEETS_DIR / "01_Lemmatized.csv"
+    LEMMA_SUMMARY_PATH = TEXT_SHEETS_DIR / "02_Lemma_Summary.csv"
+    RIGHT_TAIL_IMG_PATH = TEXT_IMG_DIR / "02_Right_Tail_Similarity.png"
+    CAT_RECURRENCE_CSV_PATH = TEXT_SHEETS_DIR / "03_Category_Recurrence.csv"
+    LEMMA_MAX_PATH = TEXT_IMG_DIR / "03_Lemma_Max_Similarity.png"
+    CAT_RECURRENCE_IMG_PATH = TEXT_IMG_DIR / "04_Category_Recurrence_Rates.png"
 
     # Clustering outputs
     # KMEANS_METRICS_PATH = TEXT_CSV_DIR / "kmeans_metrics_by_k.csv"
@@ -103,11 +119,11 @@ class Config:
     def ensure_directories(cls):
         """Create all directories if they don’t already exist."""
         dirs = [
-            cls.QC_OUTPUT_DIR,
+            cls.QC_SHEETS_DIR,
             cls.REP_IMG_DIR,
-            cls.REP_CSV_DIR,
+            cls.REP_SHEETS_DIR,
             cls.TEXT_IMG_DIR,
-            cls.TEXT_CSV_DIR,
+            cls.TEXT_SHEETS_DIR,
             # cls.OUTPUT_DIR,
             # cls.MODELS_DIR,
             # cls.LOGS_DIR,
