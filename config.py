@@ -64,6 +64,7 @@ class Config:
     LEMMATISED_PATH = TEXT_SHEETS_DIR / "01_Lemmatized.csv"
     LEMMA_SUMMARY_PATH = TEXT_SHEETS_DIR / "02_Lemma_Summary.csv"
     KDE_PATH = TEXT_IMG_DIR / "01_Lemma_Similarity_KDE.png"
+    TFIDF_MATRIX_PATH = TEXT_SHEETS_DIR / "03_TF_IDF_Matrix.parquet"
     RIGHT_TAIL_PATH = TEXT_IMG_DIR / "02_Right_Tail_Similarity.png"
     CAT_RECURRENCE_CSV_PATH = TEXT_SHEETS_DIR / "03_Category_Recurrence.csv"
     LEMMA_MAX_PATH = TEXT_IMG_DIR / "03_Lemma_Max_Similarity.png"

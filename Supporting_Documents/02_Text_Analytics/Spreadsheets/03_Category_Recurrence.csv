@@ -1,4 +1,4 @@
-category_field,category_value,records_in_group,recurrence_rate
+Dimension,Category,records_in_group,recurrence_rate
 Type,Request,3929,0.514889284805294
 Queue,Billing and Payments,1349,0.4951816160118606
 Queue,Sales and Pre-Sales,410,0.47804878048780486
