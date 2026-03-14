@@ -1,15 +1,41 @@
-Dimension,Category,records_in_group,recurrence_rate
-Type,Request,3929,0.514889284805294
-Queue,Billing and Payments,1349,0.4951816160118606
-Queue,Sales and Pre-Sales,410,0.47804878048780486
-Type,Change,1397,0.44810307802433785
-Queue,Human Resources,285,0.43508771929824563
-Queue,Customer Service,2045,0.4132029339853301
-Queue,General Inquiry,187,0.40641711229946526
-Queue,Returns and Exchanges,686,0.40524781341107874
-Queue,Product Support,2606,0.3587874136607828
-Queue,IT Support,1609,0.34244872591671843
-Queue,Technical Support,3971,0.33769831276756485
-Queue,Service Outages and Maintenance,581,0.3046471600688468
-Type,Problem,2872,0.30362116991643456
-Type,Incident,5531,0.3019345507141566
+Type,Queue,records_in_group,recurrence_rate
+Change,Billing and Payments,86,0.6744186046511628
+Request,Human Resources,88,0.6590909090909091
+Request,Billing and Payments,657,0.6103500761035008
+Change,General Inquiry,57,0.5789473684210527
+Request,Sales and Pre-Sales,209,0.5550239234449761
+Request,Service Outages and Maintenance,81,0.5432098765432098
+Change,Customer Service,157,0.5222929936305732
+Request,Technical Support,815,0.5006134969325153
+Change,Human Resources,18,0.5
+Request,Customer Service,926,0.490280777537797
+Request,General Inquiry,41,0.4878048780487805
+Request,IT Support,355,0.48732394366197185
+Change,Sales and Pre-Sales,76,0.4868421052631579
+Change,Technical Support,235,0.46808510638297873
+Request,Product Support,580,0.4672413793103448
+Change,Returns and Exchanges,85,0.4470588235294118
+Request,Returns and Exchanges,177,0.4406779661016949
+Problem,Sales and Pre-Sales,53,0.39622641509433965
+Incident,Returns and Exchanges,275,0.3890909090909091
+Change,IT Support,281,0.38434163701067614
+Change,Product Support,273,0.38095238095238093
+Problem,Returns and Exchanges,149,0.3691275167785235
+Change,Service Outages and Maintenance,129,0.3643410852713178
+Incident,Customer Service,512,0.353515625
+Problem,Human Resources,26,0.34615384615384615
+Problem,Billing and Payments,292,0.3458904109589041
+Incident,Billing and Payments,314,0.34394904458598724
+Problem,Product Support,572,0.3356643356643357
+Incident,Human Resources,153,0.3137254901960784
+Incident,Product Support,1181,0.31160033869602033
+Incident,Sales and Pre-Sales,72,0.3055555555555556
+Incident,IT Support,583,0.2915951972555746
+Problem,General Inquiry,31,0.2903225806451613
+Problem,Technical Support,868,0.2891705069124424
+Problem,Customer Service,450,0.28444444444444444
+Incident,Technical Support,2053,0.2786166585484657
+Problem,IT Support,390,0.2564102564102564
+Incident,Service Outages and Maintenance,330,0.24242424242424243
+Incident,General Inquiry,58,0.2413793103448276
+Problem,Service Outages and Maintenance,41,0.14634146341463414
