@@ -2,17 +2,17 @@ Dimension,Dataset,Category,Proportion
 Priority,English-Only,Medium,0.40314432364709213
 Priority,English-Only,High,0.3901305419714667
 Priority,English-Only,Low,0.20672513438144122
-Priority,Full (All Languages),Medium,0.4073858256245903
-Priority,Full (All Languages),High,0.3863354942093379
-Priority,Full (All Languages),Low,0.20627868016607182
+Priority,Full (English + German),Medium,0.4073858256245903
+Priority,Full (English + German),High,0.3863354942093379
+Priority,Full (English + German),Low,0.20627868016607182
 Type,English-Only,Incident,0.4021339368710342
 Type,English-Only,Request,0.2861011195085479
 Type,English-Only,Problem,0.21137291355130744
 Type,English-Only,Change,0.10039203006911046
-Type,Full (All Languages),Incident,0.4028698375701071
-Type,Full (All Languages),Request,0.28618253332362154
-Type,Full (All Languages),Problem,0.20919222084638356
-Type,Full (All Languages),Change,0.10175540825988783
+Type,Full (English + German),Incident,0.4028698375701071
+Type,Full (English + German),Request,0.28618253332362154
+Type,Full (English + German),Problem,0.20919222084638356
+Type,Full (English + German),Change,0.10175540825988783
 Queue,English-Only,Technical Support,0.2934163197672069
 Queue,English-Only,Product Support,0.18429454795295638
 Queue,English-Only,Customer Service,0.15083053792991957
@@ -23,19 +23,19 @@ Queue,English-Only,Service Outages and Maintenance,0.04138544234733056
 Queue,English-Only,Sales and Pre-Sales,0.030837004405286344
 Queue,English-Only,Human Resources,0.019116517803014994
 Queue,English-Only,General Inquiry,0.013620013741260154
-Queue,Full (All Languages),Technical Support,0.28924175103794886
-Queue,Full (All Languages),Product Support,0.18981717532231043
-Queue,Full (All Languages),Customer Service,0.14895476728093815
-Queue,Full (All Languages),IT Support,0.1171971738655401
-Queue,Full (All Languages),Billing and Payments,0.09825915944351372
-Queue,Full (All Languages),Returns and Exchanges,0.049967222667346496
-Queue,Full (All Languages),Service Outages and Maintenance,0.042319178381528155
-Queue,Full (All Languages),Sales and Pre-Sales,0.029863791973195424
-Queue,Full (All Languages),Human Resources,0.02075897734722121
-Queue,Full (All Languages),General Inquiry,0.013620802680457426
+Queue,Full (English + German),Technical Support,0.28924175103794886
+Queue,Full (English + German),Product Support,0.18981717532231043
+Queue,Full (English + German),Customer Service,0.14895476728093815
+Queue,Full (English + German),IT Support,0.1171971738655401
+Queue,Full (English + German),Billing and Payments,0.09825915944351372
+Queue,Full (English + German),Returns and Exchanges,0.049967222667346496
+Queue,Full (English + German),Service Outages and Maintenance,0.042319178381528155
+Queue,Full (English + German),Sales and Pre-Sales,0.029863791973195424
+Queue,Full (English + German),Human Resources,0.02075897734722121
+Queue,Full (English + German),General Inquiry,0.013620802680457426
 Version,English-Only,400,0.6572768055611689
 Version,English-Only,52,0.30760215010305947
 Version,English-Only,51,0.035121044335771734
-Version,Full (All Languages),400,0.6454220992060602
-Version,Full (All Languages),52,0.3144438779226455
-Version,Full (All Languages),51,0.04013402287129434
+Version,Full (English + German),400,0.6454220992060602
+Version,Full (English + German),52,0.3144438779226455
+Version,Full (English + German),51,0.04013402287129434

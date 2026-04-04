@@ -1,10 +1,10 @@
 Metric,Value
-Tokens removed,0.4507963638495678
-KS stat,0.019739238109112156
+Token reduction,45.08%
+KS statistic,0.019739238109112156
 KS p-value,0.00937932347466471
-Mean (before),0.7326541044404609
-Mean (after),0.7334804316775411
-Median (before),0.8023569185871302
-Median (after),0.805097712276481
-≥ 0.85 similarity (before),0.3612790443586569
-≥ 0.85 similarity (after),0.37810474178745723
+Mean max similarity (before),0.7326541044404609
+Mean max similarity (after),0.7334804316775411
+Median max similarity (before),0.8023569185871302
+Median max similarity (after),0.805097712276481
+Share with similarity ≥ 0.85 (before),36.13%
+Share with similarity ≥ 0.85 (after),37.81%
