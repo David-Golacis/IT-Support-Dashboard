@@ -38,10 +38,15 @@ class Config:
     REP_IMG_DIR = REP_DIR / "Images"
     REP_SHEETS_DIR = REP_DIR / "Spreadsheets"
 
-    # Text Analytics
-    TEXT_DIR = SUPPORTING_DOCS_DIR / "02_Text_Analytics"
-    TEXT_IMG_DIR = TEXT_DIR / "Images"
-    TEXT_SHEETS_DIR = TEXT_DIR / "Spreadsheets"
+    # Lemmatisation
+    LEMMA_DIR = SUPPORTING_DOCS_DIR / "02_Lemmatisation"
+    LEMMA_IMG_DIR = LEMMA_DIR / "Images"
+    LEMMA_SHEETS_DIR = LEMMA_DIR / "Spreadsheets"
+
+    # Clustering
+    CLUST_DIR = SUPPORTING_DOCS_DIR / "03_Clustering"
+    CLUST_IMG_DIR = CLUST_DIR / "Images"
+    CLUST_SHEETS_DIR = CLUST_DIR / "Spreadsheets"
 
     # 3. Data Files
     RAW_DATA_PATH = DATA_DIR / "IT_Tickets_Raw.csv"
@@ -60,25 +65,25 @@ class Config:
     STATISTICAL_SUMMARY_PATH = REP_SHEETS_DIR / "08_Statistical_Summary.csv"
     ENGLISH_PARQUET_PATH = REP_SHEETS_DIR / "01_English_Tickets.parquet"
 
-    # Text analytics outputs
-    LEMMATISED_PATH = TEXT_SHEETS_DIR / "01_Lemmatized.csv"
-    LEMMA_SUMMARY_PATH = TEXT_SHEETS_DIR / "02_Lemma_Summary.csv"
-    KDE_PATH = TEXT_IMG_DIR / "01_Lemma_Similarity_KDE.png"
-    TFIDF_MATRIX_PATH = TEXT_SHEETS_DIR / "03_TF_IDF_Matrix.parquet"
-    RIGHT_TAIL_PATH = TEXT_IMG_DIR / "02_Right_Tail_Similarity.png"
-    CAT_RECURRENCE_CSV_PATH = TEXT_SHEETS_DIR / "03_Category_Recurrence.csv"
-    LEMMA_MAX_PATH = TEXT_IMG_DIR / "03_Lemma_Max_Similarity.png"
-    CAT_RECURRENCE_IMG_PATH = TEXT_IMG_DIR / "04_Category_Recurrence_Rates.png"
-    KMEANS_METRICS_PATH = TEXT_SHEETS_DIR / "04_KMeans_Clustering_Metrics.csv"
-    OPTIMAL_K_PATH = TEXT_SHEETS_DIR / "05_Optimal_K_By_Threshold.csv"
-    SCATTERPLOT_PATH = TEXT_IMG_DIR / "05_Silhouette_Scores_Across_K.png"
-    OPTIMAL_SCORE_PATH = TEXT_SHEETS_DIR / "06_Optimal_K_By_Score.csv"
-    CLUSTER_LABELS_PATH = TEXT_SHEETS_DIR / "07_Cluster_Labels.csv"
+    # Lemmatisation outputs
+    TFIDF_MATRIX_PATH = LEMMA_SHEETS_DIR / "01_TFIDF_Matrix.parquet"
+    LEMMATISED_PATH = LEMMA_SHEETS_DIR / "02_Lemmatized.csv"
+    LEMMA_SUMMARY_PATH = LEMMA_SHEETS_DIR / "03_Lemma_Summary.csv"
+    KDE_PATH = LEMMA_IMG_DIR / "01_Lemma_Similarity_KDE.png"
+    RIGHT_TAIL_PATH = LEMMA_IMG_DIR / "02_Right_Tail_Similarity.png"
+    CAT_RECURRENCE_CSV_PATH = LEMMA_SHEETS_DIR / "04_Category_Recurrence.csv"
+    IMPACT_BARPLOT_PATH = LEMMA_IMG_DIR / "03_Impact_Barplot.png"
+    IMPACT_LINEPLOT_PATH = LEMMA_IMG_DIR / "04_Impact_Lineplot.png"
+    IMPACT_DOTPLOT_PATH = LEMMA_IMG_DIR / "05_Impact_Dotplot.png"
 
     # Clustering outputs
-    # KMEANS_METRICS_PATH = TEXT_CSV_DIR / "kmeans_metrics_by_k.csv"
-    # OPTIMAL_K_PATH = TEXT_CSV_DIR / "kmeans_optimal_k_by_threshold.csv"
-    # CHOSEN_K_PATH = TEXT_CSV_DIR / "chosen_optimal_k.txt"
+    KMEANS_CSV_PATH = CLUST_SHEETS_DIR / "04_KMeans_Clustering_Metrics.csv"
+    KMEANS_PARQUET_PATH = CLUST_SHEETS_DIR / "04_KMeans_Clustering_Metrics.parquet"
+    OPTIMAL_K_PATH = CLUST_SHEETS_DIR / "05_Optimal_K_By_Threshold.csv"
+    SCATTERPLOT_PATH = CLUST_IMG_DIR / "05_Silhouette_Scores_Across_K.png"
+    OPTIMAL_SCORE_PATH = CLUST_SHEETS_DIR / "06_Optimal_K_By_Score.csv"
+    CLUSTER_LABELS_PATH = CLUST_SHEETS_DIR / "07_Cluster_Labels.csv"
+
     # CLUSTER_LABELS_PATH = TEXT_CSV_DIR / "cluster_labels_summary.csv"
     # ACTIONABILITY_PATH = TEXT_CSV_DIR / "cluster_actionability_summary.csv"
 
@@ -121,9 +126,12 @@ class Config:
             cls.REP_DIR,
             cls.REP_IMG_DIR,
             cls.REP_SHEETS_DIR,
-            cls.TEXT_DIR,
-            cls.TEXT_IMG_DIR,
-            cls.TEXT_SHEETS_DIR,
+            cls.LEMMA_DIR,
+            cls.LEMMA_IMG_DIR,
+            cls.LEMMA_SHEETS_DIR,
+            cls.CLUST_DIR,
+            cls.CLUST_IMG_DIR,
+            cls.CLUST_SHEETS_DIR,
         ]
         for d in dirs:
             os.makedirs(d, exist_ok=True)
