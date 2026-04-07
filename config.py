@@ -48,6 +48,11 @@ class Config:
     CLUST_IMG_DIR = CLUST_DIR / "Images"
     CLUST_SHEETS_DIR = CLUST_DIR / "Spreadsheets"
 
+    # Keyword frequency analysis
+    KEY_DIR = SUPPORTING_DOCS_DIR / "04_Keyword_Frequency_Analysis"
+    KEY_IMG_DIR = KEY_DIR / "Images"
+    KEY_SHEETS_DIR = KEY_DIR / "Spreadsheets"
+
     # 3. Data Files
     RAW_DATA_PATH = DATA_DIR / "IT_Tickets_Raw.csv"
 
@@ -67,7 +72,8 @@ class Config:
 
     # Lemmatisation outputs
     TFIDF_MATRIX_PATH = LEMMA_SHEETS_DIR / "01_TFIDF_Matrix.parquet"
-    LEMMATISED_PATH = LEMMA_SHEETS_DIR / "02_Lemmatized.csv"
+    LEMMA_CSV_PATH = LEMMA_SHEETS_DIR / "02_Lemmatized.csv"
+    LEMMA_PARQUET_PATH = LEMMA_SHEETS_DIR / "02_Lemmatized.parquet"
     LEMMA_SUMMARY_PATH = LEMMA_SHEETS_DIR / "03_Lemma_Summary.csv"
     KDE_PATH = LEMMA_IMG_DIR / "01_Lemma_Similarity_KDE.png"
     RIGHT_TAIL_PATH = LEMMA_IMG_DIR / "02_Right_Tail_Similarity.png"
@@ -77,15 +83,15 @@ class Config:
     IMPACT_DOTPLOT_PATH = LEMMA_IMG_DIR / "05_Impact_Dotplot.png"
 
     # Clustering outputs
-    KMEANS_CSV_PATH = CLUST_SHEETS_DIR / "04_KMeans_Clustering_Metrics.csv"
-    KMEANS_PARQUET_PATH = CLUST_SHEETS_DIR / "04_KMeans_Clustering_Metrics.parquet"
-    OPTIMAL_K_PATH = CLUST_SHEETS_DIR / "05_Optimal_K_By_Threshold.csv"
-    SCATTERPLOT_PATH = CLUST_IMG_DIR / "05_Silhouette_Scores_Across_K.png"
-    OPTIMAL_SCORE_PATH = CLUST_SHEETS_DIR / "06_Optimal_K_By_Score.csv"
-    CLUSTER_LABELS_PATH = CLUST_SHEETS_DIR / "07_Cluster_Labels.csv"
-
-    # CLUSTER_LABELS_PATH = TEXT_CSV_DIR / "cluster_labels_summary.csv"
-    # ACTIONABILITY_PATH = TEXT_CSV_DIR / "cluster_actionability_summary.csv"
+    KMEANS_CSV_PATH = CLUST_SHEETS_DIR / "01_KMeans_Clustering_Metrics.csv"
+    KMEANS_PARQUET_PATH = CLUST_SHEETS_DIR / "01_KMeans_Clustering_Metrics.parquet"
+    OPTIMAL_K_PATH = CLUST_SHEETS_DIR / "02_Optimal_K_By_Threshold.csv"
+    KMEANS_PLOT_PATH = CLUST_IMG_DIR / "01_Silhouette_Scores_Across_K.png"
+    OPTIMAL_SCORE_PATH = CLUST_SHEETS_DIR / "03_Optimal_K_By_Score.csv"
+    CLUSTER_LABELS_PATH = CLUST_SHEETS_DIR / "04_Cluster_Labels.csv"
+    CLUSTER_SUMMARY_PATH = CLUST_SHEETS_DIR / "05_Cluster_Summary.csv"
+    ACTIONABILITY_PATH = CLUST_SHEETS_DIR / "06_Cluster_Actionability.csv"
+    PRIORITY_PATH = CLUST_SHEETS_DIR / "07_Cluster_Priority.csv"
 
     # Visual outputs
     # PCA_FIG_PATH = TEXT_IMG_DIR / "stage5_pca.png"
@@ -117,7 +123,7 @@ class Config:
     # ==============================================================
     @classmethod
     def ensure_directories(cls):
-        """Create all directories if they don’t already exist."""
+        """Create all directories if they don't already exist."""
         dirs = [
             cls.DATA_DIR,
             cls.NOTEBOOKS_DIR,
@@ -132,6 +138,9 @@ class Config:
             cls.CLUST_DIR,
             cls.CLUST_IMG_DIR,
             cls.CLUST_SHEETS_DIR,
+            cls.KEY_DIR,
+            cls.KEY_IMG_DIR,
+            cls.KEY_SHEETS_DIR,
         ]
         for d in dirs:
             os.makedirs(d, exist_ok=True)

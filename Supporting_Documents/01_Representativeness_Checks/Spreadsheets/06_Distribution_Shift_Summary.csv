@@ -1,4 +1,4 @@
-Dimension,max_diff_category,L1_total_abs_pct_diff,max_abs_pct_diff
+Dimension,Max Diff Category,L1 Total Abs Pct Diff,Max Abs Pct Diff
 Version,400,0.023709412710217294,-0.011854706355108657
 Queue,Product Support,0.017538218444646612,0.0055226273693540495
 Priority,Medium,0.008483003954996376,0.004241501977498174

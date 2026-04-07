@@ -1,0 +1,79 @@
+KMeans Cluster,Cohesion,Cluster Label,High Ratio,Records,Actionability Score
+18,0.01542932665376707,"unauthorized, access, unauthorized access, access attempt, security, attempt",0.654292343387471,431,0.8703596287703016
+28,0.013472569417307474,"investment, analytic, tool, data, data analytic, optimize",0.37020316027088035,443,0.6845632788043271
+11,0.011898948846879951,"integration, integrate, documentation, step, step step, instruction",0.13588110403397027,471,0.5329494242623218
+43,0.011212445054765227,"brand, growth, digital, brand growth, strategy, digital strategy",0.6024844720496895,322,0.6801172883860174
+38,0.009640626232156385,"security, medical, protocol, datum, medical datum, security protocol",0.8537549407114624,253,0.7106736145779792
+76,0.009486239374452378,"marketing, brand, digital marketing, digital, strategy, marketing strategy",0.7038461538461539,260,0.6482040283802416
+69,0.009386945191071538,"breach, security breach, security, medical, hospital, datum",0.7626459143968871,257,0.6662318016519786
+48,0.008944165551208322,"medical, secure, secure medical, medical datum, datum, hospital",0.6171875,256,0.5937490989805575
+36,0.008709856280166312,"crash, issue, software, application, software crash, problem",0.19205298013245034,302,0.42483242361638973
+17,0.00857264115202756,"issue, software, update, compatibility, problem, resolve",0.017766497461928935,394,0.3539167814880975
+56,0.008377508076812897,"analytic, data, data analytic, issue, analytic platform, platform",0.22968197879858657,283,0.42548077756963343
+47,0.008279377143479755,"billing, discrepancy, billing discrepancy, invoice, issue, account",0.6282051282051282,234,0.570951941753546
+15,0.008237778102850582,"investment, analytic, investment strategy, service, analytic service, data analytic",0.8767772511848341,211,0.6624814240326582
+66,0.008201430479326567,"project, project management, integration, management, integrate, saas",0.16554054054054054,296,0.3942953143071351
+22,0.008077462842749425,"campaign, digital campaign, digital, agency, marketing, issue",0.5949367088607594,237,0.5502972861031525
+13,0.007882452311107012,"digital, agency, marketing agency, marketing, digital tool, tool",0.2567049808429119,261,0.4155610425831058
+4,0.007791120195103991,"breach, data breach, security, data, healthcare, hospital",0.7741935483870968,217,0.60591964014167
+40,0.007585098542166135,"security, medical, encryption, datum, control, access control",0.7871287128712872,202,0.6024249507756921
+27,0.0075271349896571214,"campaign, engagement, target, marketing, audience, marketing campaign",0.7238095238095238,210,0.5763323092327812
+9,0.007213704870311385,"security, medical, concern, data security, breach, medical datum",0.288135593220339,236,0.40025838477383585
+7,0.007180866075713443,"analytic, investment, data, data analytic, tool, request",0.5330188679245284,212,0.49075940265727214
+45,0.00691246600862723,"incident, security, security incident, breach, medical, access",0.66,200,0.5275051714724194
+5,0.006775085607736106,"service, digital, brand, digital strategy, strategy, growth",0.901840490797546,163,0.6126304496455846
+71,0.006764383827991362,"billing, plan, payment, discount, option, pricing",0.7444444444444445,180,0.5531734323126839
+46,0.006729575479548986,"data breach, breach, data, medical, record, medical record",0.807909604519774,177,0.5755628759482637
+21,0.006723835192779762,"digital marketing, marketing, digital, marketing strategy, strategy, brand",0.5376884422110553,199,0.473997416699506
+44,0.006651299789420931,"analytic tool, tool, analytic, data, data analytic, issue",0.5172413793103449,203,0.4633915564764185
+67,0.0065748416350269725,"project management, project, management, management tool, issue, saas",0.3592233009708738,206,0.40103766550322245
+74,0.006551387244210725,"access, medical, data access, issue, problem, healthcare",0.1375,240,0.31694135414669095
+10,0.00650637136699419,"integration, financial, data integration, data, issue, investment",0.16736401673640167,239,0.32631688984038
+42,0.00639181149588521,"device, network, connectivity, problem, issue, firmware",0.1623931623931624,234,0.31981231109407354
+51,0.0063710991575118975,"connectivity, connectivity issue, issue, network, problem, device",0.3490566037735849,212,0.3889721011955888
+16,0.006318622549238864,"payment, billing, update billing, billing information, update, subscription",0.5934065934065934,182,0.4784776628301782
+70,0.0063174305779057464,"medical, secure, secure medical, datum, medical datum, confidentiality",0.9182389937106918,159,0.6002415294319194
+14,0.006186659090013078,"saas platform, saas, platform, issue, server, problem",0.405,200,0.4024797099802718
+39,0.006129329129364305,"brand, digital, strategy, growth, brand growth, social medium",0.9782608695652174,138,0.6151302555031094
+75,0.006049743083501228,"saas project, project management, project, saas, management, integration",0.6395348837209303,172,0.4848841968512031
+23,0.00592261587108629,"outage, service, service outage, issue, outage impact, outage affect",0.4076086956521739,184,0.39276229918946987
+19,0.005900537245253966,"campaign, marketing campaign, marketing, digital marketing, digital, issue",0.6686746987951807,166,0.4897677053681597
+29,0.005890814902369302,"investment optimization, optimization, investment, optimization tool, issue, tool",0.6436781609195402,174,0.4800001780339508
+0,0.00540980551888672,"performance, performance issue, issue, application, optimize, problem",0.125,200,0.2660114876236318
+8,0.005262324364415086,"charge, billing, account, invoice, statement, subscription",0.8057553956834532,139,0.5153207011115051
+64,0.005174704127773991,"team, platform, product, support, reach, support team",0.00425531914893617,235,0.21120891526397026
+61,0.0050314146854670986,"product, issue, update, integration, recent, problem",0.0967741935483871,186,0.24009922811374396
+12,0.004953979256286999,"engagement, metric, engagement metric, decline, digital, campaign",0.8015267175572519,131,0.5012447262812567
+52,0.004879159094318471,"project management, project, management, server, saas, management saas",0.43333333333333335,150,0.3601414462133715
+55,0.004843653151417466,"discrepancy, investment, discrepancy investment, data, issue, analytic",0.45098039215686275,153,0.36532084422794986
+59,0.004820738771128649,"server, peak, hour, performance, peak hour, issue",0.37012987012987014,154,0.33407369933108727
+6,0.00481269029894055,"feature, project, project management, management, saas, pricing",0.792,125,0.49194897634456763
+2,0.004747661236412831,"issue, problem, resolve, cache, server, recent",0.014285714285714285,210,0.1976719689894651
+24,0.0047259471761884235,"synchronization, data synchronization, issue, synchronization issue, problem, data",0.5390070921985816,141,0.3935629082667118
+34,0.004698556017759319,"service, disruption, service disruption, interruption, service interruption, outage",0.3137254901960784,153,0.3079727662893574
+1,0.004631672989854098,"medical, security, medical datum, confidentiality integrity, confidentiality, datum",0.8461538461538461,117,0.5049241504732238
+25,0.004614786150433072,"digital strategy, digital, strategy, marketing, marketing agency, agency",0.4097222222222222,144,0.3405782516262912
+50,0.004470255024287782,"analysis, investment, investment analysis, analysis tool, datum analysis, issue",0.4225352112676056,142,0.33952856023780037
+3,0.004400835369183601,"processing, delay, data processing, datum processing, investment, data",0.4740740740740741,135,0.35604363263076394
+35,0.003977378029982724,"login, server, login issue, login difficulty, user, issue",0.9484536082474226,97,0.5167828544475083
+37,0.0038486063823356797,"engagement, brand engagement, brand, decline, metric, decline brand",0.8404255319148937,94,0.47105613709433075
+77,0.003820203625111285,"dashboard, project dashboard, analytic dashboard, issue, project, server",0.625,112,0.3891210442877858
+65,0.003742474010605624,"scalability, scalability feature, saas, feature, project, platform",0.72,100,0.4215974293056682
+33,0.003470274337356215,"security, leak, hospital, compliance, emr, pacs",0.06944444444444445,144,0.16661302856197607
+41,0.0033286897793506636,"dashboard, loading, load, project dashboard, slow, project",0.7906976744186046,86,0.43134778497195314
+31,0.0033133760397463237,"sap, erp, sap erp, integration, erp central, central component",0.8481012658227848,79,0.45225381386508445
+32,0.003059560476852285,"healthcare, security, security solution, healthcare datum, datum, datum security",0.7439024390243902,82,0.40289787664553994
+26,0.002993342568881479,"api, api integration, integration, project, project management, management",0.8142857142857143,70,0.42660929776528717
+30,0.0029013810462376497,"user, interface, project, user interface, user experience, request",0.7162162162162162,74,0.38610812516992976
+72,0.0028749558399263513,"clickup, integration, project, clickup integration, workflow, integrate clickup",0.6385542168674698,83,0.3559144622771949
+62,0.002762049039320689,"promote, marketing, digital, strategy promote, strategy, social medium",0.8840579710144928,69,0.4434048230985844
+49,0.002758602953953965,"website traffic, traffic, website, seo, decrease, drop",0.9629629629629629,54,0.4728546035466855
+58,0.0026169326163161407,"quickbooks, quickbooks online, online, integration, integrate quickbooks, api",0.859375,64,0.42827043790596436
+57,0.002606030176138963,"sql, sql server, server, microsoft sql, microsoft, integration",0.8253968253968254,63,0.4150869942716798
+20,0.0022510190551544417,"website, agency website, server, issue, agency, website performance",0.75,60,0.372432651131962
+53,0.0022409907831490296,"google cloud, cloud, cloud platform, google, platform, integrate google",0.9375,48,0.442338933145654
+63,0.0022190147342663826,"downtime, server, overload, server overload, issue, downtime issue",0.59375,64,0.31254249325857286
+54,0.002090138143544569,"wifi, router, nest, nest wifi, google nest, wifi router",1.0,42,0.4596658035719539
+60,0.001931852319789511,"azure, microsoft, microsoft azure, teams, integrate microsoft, microsoft teams",0.6078431372549019,51,0.3061952524236471
+73,0.0016672531873697584,"spss, ibm spss, spss statistics, statistics, ibm, investment",0.96875,32,0.43081713575115727
+68,0.001425010689626979,"ibm cloud, ibm, cloud, integration, integrate, medical",1.0,30,0.4327233019303155
