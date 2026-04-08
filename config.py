@@ -72,6 +72,8 @@ class Config:
 
     # Lemmatisation outputs
     TFIDF_MATRIX_PATH = LEMMA_SHEETS_DIR / "01_TFIDF_Matrix.parquet"
+    TFIDF_SPARSE_MATRIX_PATH = LEMMA_SHEETS_DIR / "01_TFIDF_Matrix_Sparse.npz"
+    TFIDF_FEATURE_NAMES_PATH = LEMMA_SHEETS_DIR / "01_TFIDF_Feature_Names.npy"
     LEMMA_CSV_PATH = LEMMA_SHEETS_DIR / "02_Lemmatized.csv"
     LEMMA_PARQUET_PATH = LEMMA_SHEETS_DIR / "02_Lemmatized.parquet"
     LEMMA_SUMMARY_PATH = LEMMA_SHEETS_DIR / "03_Lemma_Summary.csv"
@@ -92,6 +94,7 @@ class Config:
     CLUSTER_SUMMARY_PATH = CLUST_SHEETS_DIR / "05_Cluster_Summary.csv"
     ACTIONABILITY_PATH = CLUST_SHEETS_DIR / "06_Cluster_Actionability.csv"
     PRIORITY_PATH = CLUST_SHEETS_DIR / "07_Cluster_Priority.csv"
+    NINIT_SENSITIVITY_PATH = CLUST_SHEETS_DIR / "08_NInit_Sensitivity.csv"
 
     # Visual outputs
     # PCA_FIG_PATH = TEXT_IMG_DIR / "stage5_pca.png"
@@ -99,7 +102,7 @@ class Config:
     # SILHOUETTE_FIG_PATH = TEXT_IMG_DIR / "stage3_silhouette.png"
 
     # ==============================================================
-    # 4. Clustering Parameters
+    # 4. Analysis Parameters
     # ==============================================================
     RANDOM_STATE = 42
     K_SEARCH_RANGE = range(20, 81)
@@ -107,6 +110,24 @@ class Config:
     MAX_FEATURES = 5000
     MIN_DF = 3
     MAX_DF = 0.7
+    SPACY_MODEL = "en_core_web_sm"
+    SPACY_BATCH_SIZE = 256
+    HIGH_SIMILARITY_THRESHOLD = 0.85
+    RIGHT_TAIL_THRESHOLDS = [0.85, 0.9, 0.95]
+    IMPACT_SCORE_RECURRENCE_WEIGHT = 0.6
+    IMPACT_SCORE_VOLUME_WEIGHT = 0.4
+    ACTIONABILITY_THRESHOLD = 0.5
+    REPRESENTATIVENESS_MAX_CRAMERS_V = 0.10
+    REPRESENTATIVENESS_MAX_L1 = 0.02
+    REPRESENTATIVENESS_ALPHA_FDR = 0.05
+    KMEANS_SCREENING_N_INIT = 5
+    KMEANS_FINALIST_N_INIT = 10
+    KMEANS_SENSITIVITY_N_INIT = 20
+    REDUNDANCY_LABEL_TOP_TERMS = 6
+    REDUNDANCY_OVERLAP_THRESHOLD = 0.5
+    CLUSTER_ACTIONABILITY_COHESION_WEIGHT = 0.5
+    CLUSTER_ACTIONABILITY_HIGH_RATIO_WEIGHT = 0.3
+    CLUSTER_ACTIONABILITY_NORMALISER = 0.8
 
     # ==============================================================
     # 5. Visualisation Parameters

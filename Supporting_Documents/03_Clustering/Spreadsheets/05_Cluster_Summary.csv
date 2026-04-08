@@ -1,79 +1,45 @@
 KMeans Cluster,Cluster_Size,Mean_Similarity,Cluster Label,Cohesion
-18,431,0.49148312,"unauthorized, access, unauthorized access, access attempt, security, attempt",0.01542932665376707
-28,443,0.417528,"investment, analytic, tool, data, data analytic, optimize",0.013472569417307474
-11,471,0.34683794,"integration, integrate, documentation, step, step step, instruction",0.011898948846879951
-43,322,0.47806105,"brand, growth, digital, brand growth, strategy, digital strategy",0.011212445054765227
-38,253,0.52314687,"security, medical, protocol, datum, medical datum, security protocol",0.009640626232156385
-76,260,0.5009099,"marketing, brand, digital marketing, digital, strategy, marketing strategy",0.009486239374452378
-69,257,0.5014528,"breach, security breach, security, medical, hospital, datum",0.009386945191071538
-48,256,0.47966582,"medical, secure, secure medical, medical datum, datum, hospital",0.008944165551208322
-36,302,0.39595237,"crash, issue, software, application, software crash, problem",0.008709856280166312
-17,394,0.2987152,"issue, software, update, compatibility, problem, resolve",0.00857264115202756
-56,283,0.40641275,"analytic, data, data analytic, issue, analytic platform, platform",0.008377508076812897
-47,234,0.48575884,"billing, discrepancy, billing discrepancy, invoice, issue, account",0.008279377143479755
-15,211,0.53600216,"investment, analytic, investment strategy, service, analytic service, data analytic",0.008237778102850582
-66,296,0.38039675,"project, project management, integration, management, integrate, saas",0.008201430479326567
-22,237,0.46791345,"campaign, digital campaign, digital, agency, marketing, issue",0.008077462842749425
-13,261,0.41462907,"digital, agency, marketing agency, marketing, digital tool, tool",0.007882452311107012
-4,217,0.492923,"breach, data breach, security, data, healthcare, hospital",0.007791120195103991
-40,202,0.51552385,"security, medical, encryption, datum, control, access control",0.007585098542166135
-27,210,0.4920954,"campaign, engagement, target, marketing, audience, marketing campaign",0.0075271349896571214
-9,236,0.4196481,"security, medical, concern, data security, breach, medical datum",0.007213704870311385
-7,212,0.46502882,"analytic, investment, data, data analytic, tool, request",0.007180866075713443
-45,200,0.47450623,"incident, security, security incident, breach, medical, access",0.00691246600862723
-5,163,0.5706451,"service, digital, brand, digital strategy, strategy, growth",0.006775085607736106
-71,180,0.5159346,"billing, plan, payment, discount, option, pricing",0.006764383827991362
-46,177,0.52197933,"data breach, breach, data, medical, record, medical record",0.006729575479548986
-21,199,0.46387705,"digital marketing, marketing, digital, marketing strategy, strategy, brand",0.006723835192779762
-44,203,0.449831,"analytic tool, tool, analytic, data, data analytic, issue",0.006651299789420931
-67,206,0.43818447,"project management, project, management, management tool, issue, saas",0.0065748416350269725
-74,240,0.37476665,"access, medical, data access, issue, problem, healthcare",0.006551387244210725
-10,239,0.37374884,"integration, financial, data integration, data, issue, investment",0.00650637136699419
-42,234,0.3750136,"device, network, connectivity, problem, issue, firmware",0.00639181149588521
-51,212,0.41258878,"connectivity, connectivity issue, issue, network, problem, device",0.0063710991575118975
-16,182,0.4766394,"payment, billing, update billing, billing information, update, subscription",0.006318622549238864
-70,159,0.5454843,"medical, secure, secure medical, datum, medical datum, confidentiality",0.0063174305779057464
-14,200,0.4246832,"saas platform, saas, platform, issue, server, problem",0.006186659090013078
-39,138,0.6097794,"brand, digital, strategy, growth, brand growth, social medium",0.006129329129364305
-75,172,0.4828891,"saas project, project management, project, saas, management, integration",0.006049743083501228
-23,184,0.44191083,"outage, service, service outage, issue, outage impact, outage affect",0.00592261587108629
-19,166,0.48800287,"campaign, marketing campaign, marketing, digital marketing, digital, issue",0.005900537245253966
-29,174,0.46479884,"investment optimization, optimization, investment, optimization tool, issue, tool",0.005890814902369302
-0,200,0.3713561,"performance, performance issue, issue, application, optimize, problem",0.00540980551888672
-8,139,0.51975864,"charge, billing, account, invoice, statement, subscription",0.005262324364415086
-64,235,0.30231282,"team, platform, product, support, reach, support team",0.005174704127773991
-61,186,0.37137792,"product, issue, update, integration, recent, problem",0.0050314146854670986
-12,131,0.5191846,"engagement, metric, engagement metric, decline, digital, campaign",0.004953979256286999
-52,150,0.44657317,"project management, project, management, server, saas, management saas",0.004879159094318471
-55,153,0.4346308,"discrepancy, investment, discrepancy investment, data, issue, analytic",0.004843653151417466
-59,154,0.42976573,"server, peak, hour, performance, peak hour, issue",0.004820738771128649
-6,125,0.5285874,"feature, project, project management, management, saas, pricing",0.00481269029894055
-2,210,0.310384,"issue, problem, resolve, cache, server, recent",0.004747661236412831
-24,141,0.46015978,"synchronization, data synchronization, issue, synchronization issue, problem, data",0.0047259471761884235
-34,153,0.42161095,"service, disruption, service disruption, interruption, service interruption, outage",0.004698556017759319
-1,117,0.5434892,"medical, security, medical datum, confidentiality integrity, confidentiality, datum",0.004631672989854098
-25,144,0.439975,"digital strategy, digital, strategy, marketing, marketing agency, agency",0.004614786150433072
-50,142,0.4321981,"analysis, investment, investment analysis, analysis tool, datum analysis, issue",0.004470255024287782
-3,135,0.44754866,"processing, delay, data processing, datum processing, investment, data",0.004400835369183601
-35,97,0.5629425,"login, server, login issue, login difficulty, user, issue",0.003977378029982724
-37,94,0.56210124,"engagement, brand engagement, brand, decline, metric, decline brand",0.0038486063823356797
-77,112,0.46828192,"dashboard, project dashboard, analytic dashboard, issue, project, server",0.003820203625111285
-65,100,0.51380426,"scalability, scalability feature, saas, feature, project, platform",0.003742474010605624
-33,144,0.33085692,"security, leak, hospital, compliance, emr, pacs",0.003470274337356215
-41,86,0.5313905,"dashboard, loading, load, project dashboard, slow, project",0.0033286897793506636
-31,79,0.5758144,"sap, erp, sap erp, integration, erp central, central component",0.0033133760397463237
-32,82,0.5122525,"healthcare, security, security solution, healthcare datum, datum, datum security",0.003059560476852285
-26,70,0.58708,"api, api integration, integration, project, project management, management",0.002993342568881479
-30,74,0.5382846,"user, interface, project, user interface, user experience, request",0.0029013810462376497
-72,83,0.4755454,"clickup, integration, project, clickup integration, workflow, integrate clickup",0.0028749558399263513
-62,69,0.5495677,"promote, marketing, digital, strategy promote, strategy, social medium",0.002762049039320689
-49,54,0.70134926,"website traffic, traffic, website, seo, decrease, drop",0.002758602953953965
-58,64,0.56137294,"quickbooks, quickbooks online, online, integration, integrate quickbooks, api",0.0026169326163161407
-57,63,0.56790775,"sql, sql server, server, microsoft sql, microsoft, integration",0.002606030176138963
-20,60,0.5150707,"website, agency website, server, issue, agency, website performance",0.0022510190551544417
-53,48,0.64097005,"google cloud, cloud, cloud platform, google, platform, integrate google",0.0022409907831490296
-63,64,0.47601333,"downtime, server, overload, server overload, issue, downtime issue",0.0022190147342663826
-54,42,0.68322635,"wifi, router, nest, nest wifi, google nest, wifi router",0.002090138143544569
-60,51,0.52004707,"azure, microsoft, microsoft azure, teams, integrate microsoft, microsoft teams",0.001931852319789511
-73,32,0.7153037,"spss, ibm spss, spss statistics, statistics, ibm, investment",0.0016672531873697584
-68,30,0.6521324,"ibm cloud, ibm, cloud, integration, integrate, medical",0.001425010689626979
+2,787,0.43669906,"investment, analytic, data analytic, data, tool, investment strategy",0.02503329902068969
+37,536,0.46601185,"access, unauthorized, unauthorized access, security, access attempt, medical",0.018193776144360723
+5,536,0.44931623,"security, breach, security breach, incident, medical, hospital",0.017541955065958202
+12,624,0.35597047,"integration, integrate, documentation, step, saas, process",0.016179297442550488
+15,404,0.52835137,"brand, digital, growth, brand growth, digital strategy, strategy",0.015547669318526542
+22,680,0.30246186,"issue, software, update, problem, integration, resolve",0.014980993993996584
+10,373,0.49229312,"breach, data breach, data, security, medical, hospital",0.013374996980668087
+4,375,0.47756928,"marketing, digital marketing, digital, brand, strategy, marketing strategy",0.013044539352508407
+11,344,0.4954458,"security, medical, datum, protocol, medical datum, security protocol",0.01241411253841405
+3,320,0.5219217,"medical, security, datum, medical datum, encryption, control",0.01216512070574619
+39,450,0.35471082,"connectivity, network, device, issue, problem, connectivity issue",0.011626474455653454
+17,326,0.48123154,"medical, secure, secure medical, medical datum, datum, hospital",0.01142701450826231
+43,382,0.38779026,"outage, service, service outage, issue, disruption, impact",0.01078999784041566
+14,376,0.38308424,"server, dashboard, issue, load, project dashboard, peak",0.01049163619552769
+36,313,0.4552879,"billing, discrepancy, payment, billing discrepancy, issue, account",0.010379861155969177
+32,340,0.41461232,"project, project management, management, issue, saas, management saas",0.010267913892894486
+18,339,0.41519925,"data analytic, analytic, data, issue, analytic tool, tool",0.010252206697077769
+20,356,0.3874354,"crash, issue, software, application, software crash, problem",0.010046398477306335
+40,282,0.48875985,"campaign, marketing campaign, marketing, target, engagement, digital",0.010039352933910202
+9,362,0.37175667,"investment, analysis, issue, discrepancy, data, datum",0.00980231011545105
+30,302,0.44307038,"project, project management, management, feature, scalability, integration",0.009746322042952988
+27,346,0.38143378,"investment, processing, analytic platform, platform, data, analytic",0.009612942646714863
+23,593,0.2135161,"integration, analytic, team, support, provide, investment",0.009222452329811295
+33,267,0.46323636,"campaign, digital campaign, digital, agency, marketing, issue",0.009008967046771014
+8,280,0.4322336,"digital strategy, digital, strategy, brand, growth, brand growth",0.008815311275868121
+21,328,0.36100584,"access, medical, healthcare, security, issue, data access",0.008624802709659074
+1,317,0.37064582,"request, integration, project, user, project management, management",0.008558141546140331
+13,227,0.5008426,"engagement, metric, engagement metric, decline, brand engagement, algorithm",0.008281103042879285
+6,272,0.41274363,"saas platform, saas, platform, issue, server, performance",0.008177308385375115
+29,224,0.49835345,"billing, payment, plan, option, pricing, discount",0.008131049102909906
+0,270,0.4033696,"investment, investment optimization, optimization, issue, model, algorithm",0.007932827845883306
+25,207,0.5064572,"marketing, digital, social medium, social, medium, strategy",0.007636145559365512
+16,278,0.37666172,"marketing, agency, marketing agency, issue, digital, campaign",0.0076270637026652115
+38,197,0.4845791,"saas project, project management, project, saas, management, scalable",0.006953316337812736
+42,178,0.4336234,"synchronization, data synchronization, issue, problem, synchronization issue, resolve",0.0056220384433912215
+34,145,0.51740354,"charge, billing, invoice, account, statement, subscription",0.005464601481123219
+31,161,0.455922,"security, healthcare, compliance, security solution, datum, solution",0.00534659794721229
+19,133,0.48296344,"digital tool, digital, tool, digital tools, issue, agency",0.004678719345380077
+26,105,0.5299989,"website, traffic, website traffic, seo, agency website, issue",0.004053455047210087
+24,99,0.56009924,"login, server, login issue, user, login difficulty, issue",0.004038883033553496
+41,81,0.57449484,"sap, erp, sap erp, integration, central component, erp central",0.003389473518528849
+28,76,0.5485885,"oracle, oracle database, database, integration, medical, secure",0.0030368364111682004
+7,66,0.60968035,"billing, update billing, payment, billing information, update, request update",0.0029309420499149365
+35,72,0.5446214,"quickbooks, quickbooks online, online, integration, integrate quickbooks, integrate",0.0028561979295629314

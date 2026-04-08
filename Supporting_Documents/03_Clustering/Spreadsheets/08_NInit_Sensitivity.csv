@@ -1,0 +1,2 @@
+K Value,Silhouette (n_init=5),Silhouette (n_init=20),Silhouette Delta,Davies-Bouldin (n_init=5),Davies-Bouldin (n_init=20),Davies-Bouldin Delta
+44,0.026382237672805786,0.026382237672805786,0.0,5.125738831276698,5.125738831276698,0.0
