@@ -1,45 +1,81 @@
 Cluster ID,Keywords,Records
-2,"investment, analytic, data analytic, data, tool, investment strategy",787
-22,"issue, software, update, problem, integration, resolve",680
-12,"integration, integrate, documentation, step, saas, process",624
-23,"integration, analytic, team, support, provide, investment",593
-37,"access, unauthorized, unauthorized access, security, access attempt, medical",536
-5,"security, breach, security breach, incident, medical, hospital",536
-39,"connectivity, network, device, issue, problem, connectivity issue",450
-15,"brand, digital, growth, brand growth, digital strategy, strategy",404
-43,"outage, service, service outage, issue, disruption, impact",382
-14,"server, dashboard, issue, load, project dashboard, peak",376
-4,"marketing, digital marketing, digital, brand, strategy, marketing strategy",375
-10,"breach, data breach, data, security, medical, hospital",373
-9,"investment, analysis, issue, discrepancy, data, datum",362
-20,"crash, issue, software, application, software crash, problem",356
-27,"investment, processing, analytic platform, platform, data, analytic",346
-11,"security, medical, datum, protocol, medical datum, security protocol",344
-32,"project, project management, management, issue, saas, management saas",340
-18,"data analytic, analytic, data, issue, analytic tool, tool",339
-21,"access, medical, healthcare, security, issue, data access",328
-17,"medical, secure, secure medical, medical datum, datum, hospital",326
-3,"medical, security, datum, medical datum, encryption, control",320
-1,"request, integration, project, user, project management, management",317
-36,"billing, discrepancy, payment, billing discrepancy, issue, account",313
-30,"project, project management, management, feature, scalability, integration",302
-40,"campaign, marketing campaign, marketing, target, engagement, digital",282
-8,"digital strategy, digital, strategy, brand, growth, brand growth",280
-16,"marketing, agency, marketing agency, issue, digital, campaign",278
-6,"saas platform, saas, platform, issue, server, performance",272
-0,"investment, investment optimization, optimization, issue, model, algorithm",270
-33,"campaign, digital campaign, digital, agency, marketing, issue",267
-13,"engagement, metric, engagement metric, decline, brand engagement, algorithm",227
-29,"billing, payment, plan, option, pricing, discount",224
-25,"marketing, digital, social medium, social, medium, strategy",207
-38,"saas project, project management, project, saas, management, scalable",197
-42,"synchronization, data synchronization, issue, problem, synchronization issue, resolve",178
-31,"security, healthcare, compliance, security solution, datum, solution",161
-34,"charge, billing, invoice, account, statement, subscription",145
-19,"digital tool, digital, tool, digital tools, issue, agency",133
-26,"website, traffic, website traffic, seo, agency website, issue",105
-24,"login, server, login issue, user, login difficulty, issue",99
-41,"sap, erp, sap erp, integration, central component, erp central",81
-28,"oracle, oracle database, database, integration, medical, secure",76
-35,"quickbooks, quickbooks online, online, integration, integrate quickbooks, integrate",72
-7,"billing, update billing, payment, billing information, update, request update",66
+26,"medical, secure, secure medical, medical datum, datum, hospital",466
+1,"investment, analytic, tool, optimize, optimize investment, data",428
+42,"integration, integrate, project, project management, management, saas",378
+49,"security, medical, datum, protocol, medical datum, security protocol",295
+66,"crash, issue, software, application, software crash, application crash",291
+79,"issue, software, problem, error, resolve, update",291
+13,"security, medical, encryption, datum, hospital, healthcare",290
+60,"brand, growth, digital, brand growth, strategy, digital strategy",271
+31,"access attempt, unauthorized access, unauthorized, access, security, attempt",271
+34,"project management, project, management, issue, saas, management tool",271
+74,"campaign, digital campaign, digital, issue, marketing, agency",261
+33,"billing, discrepancy, billing discrepancy, issue, account, invoice",260
+27,"investment, discrepancy, issue, data, analytic, analysis",249
+5,"device, problem, issue, product, update, audio",247
+2,"security, medical, hospital, healthcare, concern, data security",245
+64,"breach, security breach, security, medical, hospital, datum",240
+40,"integration, request, update, project, project management, management",232
+29,"campaign, marketing campaign, marketing, digital marketing, digital, target",226
+48,"data analytic, analytic, data, analytic tool, tool, issue",224
+58,"project, project management, management, saas, saas project, feature",221
+57,"service, disruption, service disruption, interruption, outage, service interruption",213
+68,"analytic, investment, data analytic, tool, data, decision",202
+23,"outage, service, service outage, issue, outage impact, outage affect",200
+53,"network, device, connectivity, issue, problem, switch",196
+72,"access, data access, issue, problem, medical, healthcare",193
+70,"server, website, issue, cache, clear, clear cache",193
+22,"incident, security, security incident, breach, medical, access",191
+11,"financial, analytic, software, data, issue, firm",189
+0,"saas platform, saas, platform, issue, server, problem",189
+55,"step step, step, instruction, integration, step instruction, integrate",189
+38,"breach, data breach, security, data, hospital, breach hospital",187
+59,"payment, billing, update billing, billing information, update, billing payment",187
+36,"marketing agency, agency, marketing, digital, issue, software",185
+18,"software update, software, recent software, update, recent, issue",184
+41,"brand, digital, marketing, strategy, social medium, medium",184
+69,"investment, analytic, service, analytic service, investment strategy, data analytic",180
+62,"digital marketing, marketing, digital, brand, marketing strategy, strategy",179
+12,"team, platform, security, support, support team, reach",179
+61,"unauthorized, unauthorized access, access, incident, medical, security",177
+39,"investment optimization, optimization, investment, optimization tool, issue, tool",177
+76,"engagement, metric, engagement metric, decline, brand engagement, algorithm",176
+14,"marketing, digital marketing, digital, marketing tool, tool, marketing strategy",173
+15,"performance, performance issue, issue, application, slow, problem",173
+9,"connectivity, connectivity issue, issue, network, problem, device",165
+44,"analytic platform, platform, analytic, investment, data, issue",162
+51,"server, peak, performance, hour, user, query",161
+25,"integration, jira, api, issue, problem, jira software",160
+4,"marketing, strategy, brand, digital, growth, target",159
+19,"plan, billing, discount, payment, pricing, option",155
+78,"dashboard, project dashboard, project, load, server, loading",147
+3,"digital strategy, digital, strategy, tool, strategy tool, brand",145
+37,"processing, delay, data processing, investment, datum processing, data",142
+63,"synchronization, data synchronization, synchronization issue, issue, problem, data",140
+32,"breach, healthcare, security, provider, healthcare provider, breach healthcare",139
+67,"charge, billing, invoice, account, subscription, incorrect",130
+21,"data breach, breach, data, medical, medical record, record",127
+56,"digital tool, digital, tool, digital tools, issue, agency",124
+28,"documentation, integration, saas, documentation integrate, integrate, platform",121
+16,"engagement, campaign, digital, target, marketing, low",120
+75,"service, digital, brand, digital strategy, strategy, growth",116
+8,"data integration, integration, data, investment, datum integration, issue",111
+43,"login, server, login issue, user, login difficulty, issue",99
+73,"adobe, adobe creative, creative cloud, premiere, adobe premiere, premiere pro",98
+45,"scalability, scalability feature, feature, project, saas, project management",95
+30,"microsoft, sql, sql server, microsoft sql, server, integrate microsoft",92
+47,"ibm, sage, accounting, sage accounting, spss, spss statistics",82
+52,"oracle, oracle database, database, medical, secure, datum",76
+6,"sap, erp, sap erp, integration, erp central, central component",70
+50,"smart, smart home, home, device, camera, smart tracker",68
+20,"unapproved, unapproved access, access, medical, access attempt, security",66
+7,"quickbooks, quickbooks online, online, integration, integrate quickbooks, api",65
+46,"router, wifi, nest, nest wifi, google nest, wifi router",61
+24,"alteryx, zoho, books, zoho books, zoho crm, crm",60
+77,"api, api integration, integration, project management, project, management",59
+65,"website traffic, traffic, website, seo, decrease, drop",54
+17,"package, service, marketing, pricing, digital, digital marketing",50
+10,"agency, marketing agency, marketing, campaign, integration, issue",48
+71,"interface, user, user interface, project, dashboard, layout",46
+35,"return, investment return, exchange, return exchange, investment, product",44
+54,"screen, recorder, screen recorder, integration, issue, firebase",19

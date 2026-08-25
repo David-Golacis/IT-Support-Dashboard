@@ -1,5 +1,5 @@
-Dimension,Chi2,P Value,DoF,n,Cramers V,P Value Adj Bh
-Priority,2.545e+00,2.802e-01,2,24743,1.014e-02,3.736e-01
-Type,1.307e+00,7.274e-01,3,24743,7.268e-03,7.274e-01
-Queue,1.452e+01,1.049e-01,9,24743,2.423e-02,2.098e-01
-Version,3.336e+01,5.712e-08,2,24743,3.672e-02,2.285e-07
+Chi2,P Value,DoF,n,Cramers V,Min Expected Count,Expected Cells Below 5,Dimension,P Value Adj Bh,Max Diff Category,Signed Pct Diff at Max,Max Abs Pct Diff,L1 Total Abs Pct Diff,Total Variation Distance,Pass Cramers V,TV Exceeds Threshold,Max Category Shift Exceeds Threshold,Inferential Caution,Chi Square Assumptions Met,Any Caution,Dimension Decision,Overall Decision
+2.54467,0.280176,2,24743,0.0101412,2276.87,0,Priority,0.373568,Medium,0.00952855,0.00952855,0.0190571,0.00952855,True,False,False,False,True,False,PASS,PASS with caution
+1.30719,0.727427,3,24743,0.00726847,1105.72,0,Type,0.727427,Problem,-0.00489894,0.00489894,0.00979787,0.00489894,True,False,False,False,True,False,PASS,PASS with caution
+14.5236,0.10488,9,24743,0.0242276,150.011,0,Queue,0.209761,Product Support,0.0124066,0.0124066,0.0393997,0.0196998,True,False,False,False,True,False,PASS,PASS with caution
+33.3563,5.71191e-08,2,24743,0.0367166,386.823,0,Version,2.28477e-07,400.0,-0.0266317,0.0266317,0.0532633,0.0266317,True,True,True,True,True,True,CAUTION,PASS with caution

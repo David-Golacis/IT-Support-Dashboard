@@ -1,0 +1,41 @@
+Dimension,Category,Language,Adjusted Residual,Flag Abs Residual >= 2
+Priority,High,EN,-1.3663656082451503,False
+Priority,Low,EN,-0.19361612917302393,False
+Priority,Medium,EN,1.5185455691360352,False
+Priority,High,DE,1.3663656082451503,False
+Priority,Low,DE,0.19361612917302393,False
+Priority,Medium,DE,-1.5185455691360352,False
+Type,Change,EN,0.7967336706167161,False
+Type,Incident,EN,0.26357547365107586,False
+Type,Problem,EN,-0.9380091032405041,False
+Type,Request,EN,0.03163683804861922,False
+Type,Change,DE,-0.7967336706167161,False
+Type,Incident,DE,-0.26357547365107586,False
+Type,Problem,DE,0.9380091032405039,False
+Type,Request,DE,-0.03163683804861922,False
+Queue,Billing and Payments,EN,0.14863646074514814,False
+Queue,Customer Service,EN,-0.9204728987360193,False
+Queue,General Inquiry,EN,0.0011953792947256804,False
+Queue,Human Resources,EN,2.1064670578227904,True
+Queue,IT Support,EN,-0.9469699738192904,False
+Queue,Product Support,EN,2.501473512331748,True
+Queue,Returns and Exchanges,EN,0.3381543930648224,False
+Queue,Sales and Pre-Sales,EN,-0.9886583504651139,False
+Queue,Service Outages and Maintenance,EN,0.8232872741989629,False
+Queue,Technical Support,EN,-1.6101293835145623,False
+Queue,Billing and Payments,DE,-0.14863646074514816,False
+Queue,Customer Service,DE,0.9204728987360193,False
+Queue,General Inquiry,DE,-0.0011953792947256804,False
+Queue,Human Resources,DE,-2.1064670578227878,True
+Queue,IT Support,DE,0.9469699738192902,False
+Queue,Product Support,DE,-2.5014735123317404,True
+Queue,Returns and Exchanges,DE,-0.33815439306482237,False
+Queue,Sales and Pre-Sales,DE,0.9886583504651139,False
+Queue,Service Outages and Maintenance,DE,-0.8232872741989592,False
+Queue,Technical Support,DE,1.6101293835145623,False
+Version,51,EN,4.782432083425544,True
+Version,52,EN,2.6035525520135994,True
+Version,400,EN,-4.386498577371031,True
+Version,51,DE,-4.782432083425544,True
+Version,52,DE,-2.6035525520136003,True
+Version,400,DE,4.386498577371056,True

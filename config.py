@@ -14,16 +14,16 @@ Usage:
     df = pd.read_csv(Config.RAW_DATA_PATH)
     plt.savefig(Config.TEXT_IMG_DIR / "stage5_tsne.png")
 
-Project root: C:\Users\David\Desktop\Python_Files\IT-Support-Ticket-Analysis
+Project root: C:\Users\cosmi\Documents\Projects\IT-Support-Ticket-Analysis
 """
 
-from pathlib import Path
 import os
+from pathlib import Path
 
 
 class Config:
     # 1. Base Paths
-    BASE_DIR = Path(r"C:\Users\David\Desktop\Python_Files\IT-Support-Ticket-Analysis")
+    BASE_DIR = Path(r"C:\Users\cosmi\Documents\Projects\IT-Support-Ticket-Analysis")
 
     DATA_DIR = BASE_DIR / "Data"
     NOTEBOOKS_DIR = BASE_DIR / "Notebooks"
@@ -57,17 +57,30 @@ class Config:
     RAW_DATA_PATH = DATA_DIR / "IT_Tickets_Raw.csv"
 
     # Quality checks outputs
-    NULL_ANSWERS_PATH = QC_DIR / "01_Null_Answers.csv"
+    MISSING_REQUIRED_TEXT_PATH = QC_DIR / "01_Missing_Required_Text.csv"
     INVALID_TAGS_PATH = QC_DIR / "02_Invalid_Tags.csv"
-    VALIDATED_TAGS_PATH = QC_DIR / "03_Validated_Tags.csv"
-    CLEAN_CSV_PATH = QC_DIR / "04_Tickets_Clean.csv"
-    CLEAN_PARQUET_PATH = QC_DIR / "04_Tickets_Clean.parquet"
+    FIXED_COMMA_TAGS_PATH = QC_DIR / "03_Fixed_Comma_Tags.csv"
+    MALFORMED_TAGS_PATH = QC_DIR / "04_Malformed_Tags.csv"
+    FIXED_TAGS_PATH = QC_DIR / "05_Fixed_Tags.csv"
+    VALIDATED_TAGS_PATH = QC_DIR / "06_Validated_Tags.csv"
+    CLEAN_CSV_PATH = QC_DIR / "07_Tickets_Clean.csv"
+    CLEAN_PARQUET_PATH = QC_DIR / "07_Tickets_Clean.parquet"
 
     # Representativeness checks outputs
     ENGLISH_CSV_PATH = REP_SHEETS_DIR / "01_English_Tickets.csv"
     ABSOLUTE_SHIFT_PATH = REP_SHEETS_DIR / "06_Distribution_Shift_Summary.csv"
     VISUAL_PARAMS_PATH = REP_SHEETS_DIR / "07_Visual_Parameters.csv"
     STATISTICAL_SUMMARY_PATH = REP_SHEETS_DIR / "08_Statistical_Summary.csv"
+    LANGUAGE_SHIFT_PATH = REP_SHEETS_DIR / "09_Language_Group_Shifts.csv"
+    RESIDUAL_DIAGNOSTICS_PATH = REP_SHEETS_DIR / "10_Chi_Square_Residuals.csv"
+    JOINT_DISTRIBUTION_PATH = REP_SHEETS_DIR / "11_Joint_Distribution_Checks.csv"
+    TAG_PREVALENCE_PATH = REP_SHEETS_DIR / "12_Tag_Prevalence_Checks.csv"
+    TEXT_QUALITY_PATH = REP_SHEETS_DIR / "13_Text_Quality_Checks.csv"
+    TEXT_LENGTH_PATH = REP_SHEETS_DIR / "14_Text_Length_Checks.csv"
+    BOOTSTRAP_SUMMARY_PATH = REP_SHEETS_DIR / "15_Bootstrap_Intervals.csv"
+    LANGUAGE_CLASSIFIER_PATH = REP_SHEETS_DIR / "16_Language_Classifier.csv"
+    VERSION_SENSITIVITY_PATH = REP_SHEETS_DIR / "17_Version_Sensitivity.csv"
+    LANGUAGE_LABEL_AUDIT_PATH = REP_SHEETS_DIR / "18_Language_Label_Audit.csv"
     ENGLISH_PARQUET_PATH = REP_SHEETS_DIR / "01_English_Tickets.parquet"
 
     # Lemmatisation outputs
@@ -91,8 +104,8 @@ class Config:
     KMEANS_PLOT_PATH = CLUST_IMG_DIR / "01_Silhouette_Scores_Across_K.png"
     OPTIMAL_SCORE_PATH = CLUST_SHEETS_DIR / "03_Optimal_K_By_Score.csv"
     CLUSTER_LABELS_PATH = CLUST_SHEETS_DIR / "04_Cluster_Labels.csv"
-    CLUSTER_SUMMARY_PATH = CLUST_SHEETS_DIR / "05_Cluster_Summary.csv"
-    ACTIONABILITY_PATH = CLUST_SHEETS_DIR / "06_Cluster_Actionability.csv"
+    ACTIONABILITY_PATH = CLUST_SHEETS_DIR / "05_Cluster_Actionability.csv"
+    CLUSTER_SUMMARY_PATH = CLUST_SHEETS_DIR / "06_Cluster_Summary.csv"
     PRIORITY_PATH = CLUST_SHEETS_DIR / "07_Cluster_Priority.csv"
     NINIT_SENSITIVITY_PATH = CLUST_SHEETS_DIR / "08_NInit_Sensitivity.csv"
 
@@ -101,9 +114,7 @@ class Config:
     # TSNE_FIG_PATH = TEXT_IMG_DIR / "stage5_tsne.png"
     # SILHOUETTE_FIG_PATH = TEXT_IMG_DIR / "stage3_silhouette.png"
 
-    # ==============================================================
     # 4. Analysis Parameters
-    # ==============================================================
     RANDOM_STATE = 42
     K_SEARCH_RANGE = range(20, 81)
     THRESHOLD_PERCENTS = [0.01, 0.015, 0.02]
@@ -119,7 +130,14 @@ class Config:
     ACTIONABILITY_THRESHOLD = 0.5
     REPRESENTATIVENESS_MAX_CRAMERS_V = 0.10
     REPRESENTATIVENESS_MAX_L1 = 0.02
+    REPRESENTATIVENESS_MAX_TOTAL_VARIATION = 0.02
+    REPRESENTATIVENESS_MAX_CATEGORY_SHIFT = 0.02
     REPRESENTATIVENESS_ALPHA_FDR = 0.05
+    REPRESENTATIVENESS_BOOTSTRAP_ITERATIONS = 1000
+    REPRESENTATIVENESS_MIN_JOINT_COUNT = 50
+    REPRESENTATIVENESS_MAX_LANGUAGE_AUC = 0.60
+    REPRESENTATIVENESS_MAX_ABS_CLIFFS_DELTA = 0.147
+    REPRESENTATIVENESS_MAX_LANGUAGE_LABEL_MISMATCH = 0.01
     KMEANS_SCREENING_N_INIT = 5
     KMEANS_FINALIST_N_INIT = 10
     KMEANS_SENSITIVITY_N_INIT = 20
@@ -129,9 +147,7 @@ class Config:
     CLUSTER_ACTIONABILITY_HIGH_RATIO_WEIGHT = 0.3
     CLUSTER_ACTIONABILITY_NORMALISER = 0.8
 
-    # ==============================================================
     # 5. Visualisation Parameters
-    # ==============================================================
     PCA_COMPONENTS = 2
     TSNE_COMPONENTS = 2
     TSNE_PERPLEXITY = 35
@@ -139,9 +155,7 @@ class Config:
     TSNE_ITER = 750
     TSNE_METRIC = "cosine"
 
-    # ==============================================================
     # 6. Utility: Ensure folder structure exists
-    # ==============================================================
     @classmethod
     def ensure_directories(cls):
         """Create all directories if they don't already exist."""

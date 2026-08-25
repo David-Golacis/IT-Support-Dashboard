@@ -1,0 +1,7 @@
+Language,Column,Records,Null Count,Blank Count,Short Records Below 5 Words,Exact Duplicate Count,Residual Formatting Count,Replacement Character Count
+EN,Subject,13729,0,0,3880,0,0,0
+EN,Body,13729,0,0,98,1,0,0
+EN,Answer,13729,0,0,73,0,0,0
+DE,Subject,11014,0,0,5068,0,0,0
+DE,Body,11014,0,0,114,1,1,0
+DE,Answer,11014,0,0,50,0,1,0
